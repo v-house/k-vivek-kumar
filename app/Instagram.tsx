@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Instagram() {
   return (
     <>
-      <button className="flex bg-slate-800 py-4 px-6 rounded-xl">
+      <button className="group flex bg-slate-800 py-4 px-6 rounded-xl">
         <div className="flex flex-col items-end mr-2">
           <div className="text-md text-extrabold">vivek_kumar_be_a_part</div>
           <div className="text-xs">Instagram Profile</div>
@@ -17,7 +17,7 @@ export default function Instagram() {
           <Image
             width={200}
             height={200}
-            className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            className="inline-block h-8 w-8 rounded-full ring-2 ring-white group-hover:scale-105 transition-all duration-500"
             src="/vivek-insta.jpg"
             alt=""
           />

@@ -1,7 +1,7 @@
 export default function Github() {
   return (
     <>
-      <button className="flex bg-slate-800 py-4 px-6 rounded-xl border-spacing-2 border-white">
+      <button className="group flex bg-slate-800 py-4 px-6 rounded-xl border-spacing-2 border-white">
         <div className="flex -space-x-2 overflow-hidden p-1 mr-2 items-center">
           <img
             className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
@@ -9,7 +9,7 @@ export default function Github() {
             alt=""
           />
           <img
-            className="inline-block h-8 w-8 rounded-full ring-2 ring-white"
+            className="inline-block h-8 w-8 rounded-full ring-2 ring-white group-hover:scale-105 transition-all duration-500"
             src="https://avatars.githubusercontent.com/u/102508246?v=4"
             alt=""
           />

@@ -24,7 +24,7 @@ export default function Navbar() {
           </svg>
         </button>
       </div>
-      <div className="flex items-center text-3xl lg:text-5xl font-mono">
+      <div className="flex items-center text-3xl lg:text-5xl font-mono font-extrabold">
         <TypeAnimation
           sequence={["$ Vwake", 2000, "$ Vivek", 1000]}
           speed={40}
