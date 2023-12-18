@@ -2,6 +2,7 @@ import Education from "./Education";
 import Features from "./Features";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Education />
         <Features />
+        <Projects />
       </div>
     </>
   );

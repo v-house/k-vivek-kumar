@@ -26,23 +26,17 @@ export default function Hero() {
               <p>🚀✨</p>
             </div>
             <div className="flex-grow flex flex-col justify-center items-center">
-              <div className="hidden lg:block absolute -translate-x-48 z-10 -translate-y-48">
-                <Instagram />
-              </div>
-              <div className="hidden lg:block absolute -translate-x-56 z-10 translate-y-24">
+              <div className="hidden lg:block absolute -translate-x-56 z-10 -translate-y-24">
                 <Instagram />
               </div>
               <div className="m-4">
                 <img
-                  src="https://media.licdn.com/dms/image/D5603AQGbZ7Itnw3MzQ/profile-displayphoto-shrink_400_400/0/1694713181862?e=1707955200&v=beta&t=QQYulLUm2suw74IRMH9cNY0s3IFPOTl7afsCBKrTMgQ"
+                  src="https://mir-s3-cdn-cf.behance.net/user/230/98de091733457125.658045d81ce9e.jpg"
                   alt="Vwake"
-                  className=""
+                  className="rounded-full"
                 />
               </div>
               <div>Its ME, 😎!!</div>
-              <div className="hidden lg:block absolute translate-x-24 translate-y-36">
-                <Github />
-              </div>
               <div className="hidden lg:block absolute translate-x-48 translate-y-12">
                 <Github />
               </div>
