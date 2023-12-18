@@ -1,6 +1,7 @@
 import ButtonArray from "./ButtonArray";
 import Github from "./GitHub";
 import Instagram from "./Instagram";
+import Linkedin from "./Linkedin";
 
 export default function Hero() {
   return (
@@ -36,9 +37,15 @@ export default function Hero() {
                   className="rounded-full"
                 />
               </div>
-              <div>Its ME, 😎!!</div>
+              <div className="font-mono">Its ME, 😎!!</div>
               <div className="hidden lg:block absolute translate-x-48 translate-y-12">
+                <Linkedin />
+              </div>
+              <div className="hidden lg:block absolute -translate-x-48 translate-y-24">
                 <Github />
+              </div>
+              <div className="lg:hidden my-2">
+                <Linkedin />
               </div>
               <div className="lg:hidden my-2">
                 <Github />

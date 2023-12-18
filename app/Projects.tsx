@@ -2,11 +2,11 @@ import PCard from "./ProjectCard";
 
 const Projects: React.FC = () => {
   return (
-    <section id="education" className="my-12">
+    <section id="projects" className="my-12">
       <div className="text-2xl lg:text-4xl text-center font-mono font-extrabold">
         Projects
       </div>
-      <div className="flex flex-wrap p-6 justify-evenly">
+      <div className="flex flex-wrap p-2 lg:p-6 justify-evenly">
         <PCard
           type={"Personal Web-UI"}
           repo={"https://github.com/v-house/k-vivek-kumar.git"}

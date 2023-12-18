@@ -24,15 +24,15 @@ export default function PCard(props: {
             {props.type}
           </div>
           <a
-            href={props.repo}
+            href={props.elink}
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg cursor-pointer"
           >
             <div className="flex items-center space-x-2">
-              <div>Repo</div>
+              <div>View</div>
               <div>
-                <MdOutlineOpenInNew />
+                <GoLink />
               </div>
             </div>
           </a>
@@ -46,21 +46,24 @@ export default function PCard(props: {
 
         <div className="">
           <div className="">
-            <div className="text-sm">{props.softwares}</div>
+            <div className="text-sm">
+              {"$ "}
+              {props.softwares}
+            </div>
           </div>
 
           <div className="mb-1 flex justify-between">
             <div>{props.place}</div>
             <a
-              href={props.elink}
+              href={props.repo}
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer"
             >
               <div className="flex items-center space-x-2">
-                <div>View</div>
+                <div>Repo</div>
                 <div>
-                  <GoLink />
+                  <MdOutlineOpenInNew />
                 </div>
               </div>
             </a>

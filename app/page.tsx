@@ -10,9 +10,9 @@ export default function Home() {
       <div className="bg-black overflow-x-hidden">
         <Navbar />
         <Hero />
+        <Projects />
         <Education />
         <Features />
-        <Projects />
       </div>
     </>
   );

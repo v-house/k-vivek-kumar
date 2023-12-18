@@ -5,7 +5,7 @@ export default function ButtonArray() {
     <>
       <Button
         name={"Projects"}
-        route={"/"}
+        route={"#projects"}
         icon={
           <path
             strokeLinecap="round"
@@ -37,7 +37,7 @@ export default function ButtonArray() {
         }
       />
       <Button
-        name={"Extra-Curricular"}
+        name={"Interests"}
         route={"/"}
         icon={
           <path
@@ -48,7 +48,7 @@ export default function ButtonArray() {
         }
       />
       <Button
-        name={"More To Know"}
+        name={"More"}
         route={"/"}
         icon={
           <path

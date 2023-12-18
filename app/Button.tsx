@@ -20,7 +20,7 @@ const Button = (props: { route: any; icon: any; name: any }) => {
       >
         {props.icon}
       </svg>
-      <div className="">{props.name}</div>
+      <div className="font-mono">{props.name}</div>
     </button>
   );
 };

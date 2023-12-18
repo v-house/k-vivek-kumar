@@ -50,7 +50,7 @@ export default function Education() {
                 <h1 className="text-xl font-bold">
                   Indian Institute of Technology, Hyderabad
                 </h1>
-                <h3>IIT</h3>
+                <h3>Computer Science and Engineering</h3>
               </div>
             </div>
 
