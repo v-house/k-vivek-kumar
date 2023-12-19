@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <>
-      <section id="education" className="my-12">
+      <section id="education" className="my-12 py-12">
         <div className="text-2xl lg:text-4xl text-center font-mono font-extrabold">
           Education
         </div>

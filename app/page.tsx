@@ -3,6 +3,7 @@ import Features from "./Features";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
+import Random from "./Random";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Projects />
-        <Education />
         <Features />
+        <Education />
+        <Random />
       </div>
     </>
   );
