@@ -76,8 +76,9 @@ export default function Education() {
               </div>
               <div>[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin</div>
               <div>
-                Type "help", "copyright", "credits" or "license" for more
-                information.
+                {
+                  'Type "help", "copyright", "credits" or "license" for more information.'
+                }
               </div>
               <div>{">>>"}</div>
               <div>{">>>"}</div>
@@ -86,14 +87,14 @@ export default function Education() {
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anythingRemember = False
               </div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school = "Ramadevi Public
-                School, Hyderabad"
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school ={" "}
+                {'"Ramadevi Public School, Hyderabad"'}
               </div>
               <div className="">
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;till = 2014
               </div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "JNVST-Pass"
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return {'"JNVST-Pass"'}
               </div>
               <div className="">...</div>
               <div>{">>> def tenth():"}</div>
@@ -105,8 +106,8 @@ export default function Education() {
                 {"')"}
               </div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school = "Jawahar Navodaya
-                Vidyalaya, Gachibowli"
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school ={" "}
+                {'"Jawahar Navodaya Vidyalaya, Gachibowli"'}
               </div>
               <div className="">
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from = 2014
@@ -125,8 +126,8 @@ export default function Education() {
                 inf{"')"}
               </div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school = "Gyanavapi Junior
-                College, Hyderabad"
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school ={" "}
+                {'"Gyanavapi Junior College, Hyderabad"'}
               </div>
               <div className="">
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from = 2019
@@ -138,7 +139,7 @@ export default function Education() {
               <div className="">...</div>
               <div>{">>> def iit():"}</div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;place = "Hyderabad"
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;place = {'"Hyderabad"'}
               </div>
               <div className="">
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;studyingThere = True
