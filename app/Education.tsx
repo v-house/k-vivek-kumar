@@ -101,7 +101,8 @@ export default function Education() {
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hostel = True
               </div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enjoyment = float({"'"}inf')
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enjoyment = float{"('"}inf
+                {"')"}
               </div>
               <div className="">
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school = "Jawahar Navodaya
@@ -112,7 +113,7 @@ export default function Education() {
               </div>
               <div className="">...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to = 2019</div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "home"
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return {'"home"'}
               </div>
               <div className="">...</div>
               <div>{">>> def twelth():"}</div>
@@ -120,8 +121,8 @@ export default function Education() {
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iitCoaching = True
               </div>
               <div className="">
-                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enjoyment = (-1) * float({"'"}
-                inf')
+                ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enjoyment = (-1) * float{"('"}
+                inf{"')"}
               </div>
               <div className="">
                 ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;school = "Gyanavapi Junior
