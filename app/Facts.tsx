@@ -2,9 +2,13 @@ export default function Facts(props: { emoji: any; fact: any; des: any }) {
   return (
     <>
       <div className="group cursor-pointer w-32 lg:w-48 m-2 p-2 lg:m-4 lg:p-4 rounded-xl font-mono font-extrabold flex flex-col justify-between">
-        <div className="flex flex-col my-2">
-          <div className="text-center text-4xl group-hover:scale-150 transition-all duration-300">
-            {props.emoji}
+        <div className="group flex flex-col my-2">
+          <div className="mx-auto bg-slate-600 bg-opacity-50 p-2 rounded-lg">
+            <img
+              src={props.emoji}
+              alt={props.fact}
+              className="h-20 group-hover:scale-105 transition-all duration-300"
+            />
           </div>
           <div className="my-4 text-center">{props.fact}</div>
         </div>

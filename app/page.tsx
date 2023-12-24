@@ -1,3 +1,4 @@
+import Contact from "./Contact";
 import Education from "./Education";
 import Features from "./Features";
 import Hero from "./Hero";
@@ -12,8 +13,8 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Projects />
-        <Features />
         <Random />
+        <Contact />
         <Education />
       </div>
     </>
